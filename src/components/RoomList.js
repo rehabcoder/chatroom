@@ -22,7 +22,7 @@ class RoomList extends Component {
     });
   }
 
-  formUpdate(e) {
+  forumUpdate(e) {
     this.setState({ newRoomName:e.target.value })
     console.log(this.state.newRoomName);
   }
